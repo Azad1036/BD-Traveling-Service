@@ -21,6 +21,19 @@ header, main {
     padding: 0px 240px;
 }
 
+.primary-text-1 {
+    color: rgba(19, 19, 24, 0.70);;
+    padding:24px 0;
+    text-align: left;
+}
+
+.primary-text-2 {
+    color: rgba(19, 19, 24, 0.70);
+    padding: 15px 0px;
+    margin-left: 15px;
+    text-align: left;
+}
+
 .button-Primary {
     border-radius: 8px;
     background: #FF5400;
@@ -100,5 +113,20 @@ header, main {
     margin: 10px 16px 10px 16px;
 }
 
+/* tour releted style */
+.tour-container {
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+}
 
+.tour-content h3 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.tour-image {
+    border-radius: 16px;
+}
 
