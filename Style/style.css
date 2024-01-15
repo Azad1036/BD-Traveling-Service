@@ -126,7 +126,8 @@ header, main {
     font-weight: 800;
 }
 
-.tour-image {
+.tour-image imag {
     border-radius: 16px;
+    width: 100%;
 }
 /* tour releted end */

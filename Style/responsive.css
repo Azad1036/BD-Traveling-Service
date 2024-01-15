@@ -66,6 +66,9 @@
     .primary-text-1 { 
         padding:10px 0;  
     }
+    .tour-image img {
+        width: 100%;
+    }
     /* tour releted responsive end */
 
 
