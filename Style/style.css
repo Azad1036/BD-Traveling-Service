@@ -59,8 +59,8 @@ header, main {
 }
 
 .nav-container img {
-    max-width: 48px;
-    max-height: 50px;
+    width: 48px;
+    height: 50px;
     margin-right: 8px;
 }
 
@@ -78,7 +78,7 @@ header, main {
     font-size: 18px;
     color: #424247;
 }
-
+/* Nav releted end */
 /* banner releted style */
 .banner-container{
     margin-top: 50px;
@@ -112,7 +112,7 @@ header, main {
     text-align: left;
     margin: 10px 16px 10px 16px;
 }
-
+/* banner releted style end */
 /* tour releted style */
 .tour-container {
     display: flex;
@@ -129,4 +129,4 @@ header, main {
 .tour-image {
     border-radius: 16px;
 }
-
+/* tour releted end */

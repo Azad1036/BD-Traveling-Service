@@ -1,0 +1,73 @@
+@media screen and (max-width:600px) {
+
+    header,
+    main {
+        width: 95%;
+        margin: 0px auto;
+    }
+
+    /* nav releted respnsive start */
+    .nav-container {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .nav-section {
+        font-size: 16px;
+    }
+
+    .login-section {
+        width: 100%;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    /* nav releted respnsive end */
+    /* banner releted responsive start */
+    .banner-container {
+        margin-top: 18px;
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+
+    }
+    .banner-image h3 {
+        font-size: 22px;
+        text-align: center;
+        padding: 32px 66px 24px 32px;
+    }
+    .primary-text {
+        padding: 0px 15px;
+    }
+    .servics-item {
+        width: 50%;
+        height: 300px;
+        margin: 20px 25% ;  
+        padding: 15px 10px; 
+        
+    }
+    .service {
+        display:block;
+        border: 2px solid red;
+        justify-content: center;
+        width: 80%;
+    }
+    /* banner releted responsive end */
+    /* tour releted responsive start */
+    .tour-container {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    
+    .tour-content h3 {
+        font-size: 20px;
+    }
+    
+    .primary-text-1 { 
+        padding:10px 0;  
+    }
+    /* tour releted responsive end */
+
+
+
+}
