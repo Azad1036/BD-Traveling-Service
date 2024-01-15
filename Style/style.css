@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+header, main {
+    width: 85%;
+    margin: 0px auto;
+}
+
+/* same releted style */
+.Primay-color {
+    color: #FF5400;
+}
+
+.primary-text {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0px 240px;
+}
+
+.button-Primary {
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    padding: 16px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+/* Nav releted style */
+.nav-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    color: #131318;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.nav-container img {
+    max-width: 48px;
+    max-height: 50px;
+    margin-right: 8px;
+}
+
+.login-section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 40px;
+}
+
+.login-section a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #424247;
+}
+
+/* banner releted style */
+.banner-container{
+    margin-top: 50px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 16px;
+}
+
+.banner-image h3 {
+    color: #ffff;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    padding: 150px 250px 24px 250px;
+}
+
+.servics-item {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 60%;
+    height: 70px;
+    text-align: center;
+    margin: 50px 215px;   
+}
+
+.service {
+    padding: 16px;
+    border-radius: 8px;
+    border: 0;
+    text-align: left;
+    margin: 10px 16px 10px 16px;
+}
+
+
+
