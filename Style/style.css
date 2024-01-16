@@ -5,7 +5,7 @@
     font-family: 'Mulish', sans-serif;
 }
 
-header, main {
+body {
     width: 85%;
     margin: 0px auto;
 }
@@ -22,8 +22,9 @@ header, main {
 }
 
 .primary-text-1 {
-    color: rgba(19, 19, 24, 0.70);;
-    padding:24px 0;
+    color: rgba(19, 19, 24, 0.70);
+    ;
+    padding: 24px 0;
     text-align: left;
 }
 
@@ -41,6 +42,12 @@ header, main {
     padding: 16px;
     color: #FFFFFF;
     font-weight: 700;
+}
+
+.tour-continer-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 /* Nav releted style */
@@ -78,9 +85,10 @@ header, main {
     font-size: 18px;
     color: #424247;
 }
+
 /* Nav releted end */
 /* banner releted style */
-.banner-container{
+.banner-container {
     margin-top: 50px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
     background-repeat: no-repeat;
@@ -102,7 +110,7 @@ header, main {
     width: 60%;
     height: 70px;
     text-align: center;
-    margin: 50px 215px;   
+    margin: 50px 215px;
 }
 
 .service {
@@ -112,6 +120,7 @@ header, main {
     text-align: left;
     margin: 10px 16px 10px 16px;
 }
+
 /* banner releted style end */
 /* tour releted style */
 .tour-container {
@@ -120,14 +129,78 @@ header, main {
     gap: 20px;
 }
 
-.tour-content h3 {
-    color: #131318;
-    font-size: 40px;
-    font-weight: 800;
-}
-
 .tour-image imag {
     border-radius: 16px;
     width: 100%;
 }
+
 /* tour releted end */
+/* Our service country releted style */
+.our-service-title h3 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.our-service-title p {
+    text-align: center;
+    padding: 24px 0px 48px 0px;
+    margin: 0px 300px 0px 300px;
+}
+
+.our-servics-country {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 24px;
+}
+
+.our-servics-country img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.grid-image1 {
+    grid-column: 1/span 6;
+    position: relative;
+}
+
+.grid-image2 {
+    grid-column: 7/span 6;
+    position: relative;
+}
+
+.grid-image3 {
+    grid-column: 1/span 3;
+    position: relative;
+}
+
+.grid-image4 {
+    grid-column: 4/span 6;
+    position: relative;
+}
+
+.grid-image5 {
+    grid-column: 10/span 3;
+    position: relative;
+}
+
+.grid-image6 {
+    grid-column: 1/span 4;
+    position: relative;
+}
+
+.grid-image7 {
+    grid-column: 5/span 8;
+    position: relative;
+}
+
+.country-name {
+    position: absolute;
+    left: 38.50%;
+    bottom: 42.50%;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+/* Our service country releted end */
