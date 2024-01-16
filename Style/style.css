@@ -260,6 +260,69 @@
 }
 
 /* our facility releted style end */
+/* Deals & Discounts releted style */
+.discount-posstion-1 img , .discount-posstion img {
+    width: 100%;
+    margin-top: 24px;
+}
+.discount-price, .discount-price-1 {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+}
+
+.discount-price {
+    position: absolute; 
+    bottom: 15%;
+    right: 3%;
+    width: 579px;
+    height: 350px;
+}
+.discount-price-1 {
+    position: absolute;
+    bottom: 15%;
+    left: 3%;
+    width: 579px;
+    height: 350px;
+}
+
+.discount-posstion, .discount-posstion-1 {
+    position: relative;
+}
+
+.discount-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 0px 0px 0px 50px;
+}
+
+.discount-dis {
+    color: #5A5A5D;
+    height: 50px;
+    padding: 10px 77px 0px 50px;  
+}
+
+.price {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 30px 50px; 
+    
+}
+
+.discount-logo {
+    margin: 50px 10px 24px 50px;
+    color: #5A5A5D;
+}
+
+.fa-solid {
+    color: red;
+}
+#btn-style {
+    margin-left: 50px;
+}
+/* Deals & Discounts releted style end */
 /* Place section star */
 .primary-text-3>li {
     font-weight: 700;
@@ -283,7 +346,6 @@
     font-weight: 800;
     padding: 0px 100px;
     text-align: center;
-
 }
 
 /* form releted style */

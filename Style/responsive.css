@@ -77,7 +77,48 @@
     }
 
     /* our facility releted style end */
+    /* Deals & Discounts style start */
+    .discount-posstion-1 img , .discount-posstion img {
+        margin-top: 16px;
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 16px;
+    }
 
+    .discount-price {
+        bottom: 5%;
+        right: 20%;
+        width: 303px;
+        height: 297px;
+    }
+    .discount-price-1 {
+        bottom: 5%;
+        left: 20%;
+        width: 303px;
+        height: 297px;
+    }
+    .discount-title {
+        font-size: 20px;
+        padding: 0px 0px 0px 25px;
+    }
+
+    .discount-dis {
+        padding: 10px 0px 12px 25px; 
+        font-size: 14px; 
+    }
+    .discount-logo {
+        margin:10px 25px;
+    }
+    .price {
+        color: #FF5400;
+        font-size: 16px;
+        padding: 40px 0px 10px 25px; 
+    }
+    #btn-style {
+        margin-left: 25px;   
+    }
+    
     /* tour releted responsive start */
     .tour-container {
         flex-direction: column;
