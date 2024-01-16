@@ -108,5 +108,36 @@
         padding: 0px 60px; 
     }
     /* Place section end */
+    /* form releted style */
+    .from-container {
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 24px;
+        gap: 20px;
+    }
+    
+    .form-section h3 {
+        font-size: 20px;
+    }
+    
+    .from-image img {
+        width: 100%;
+        height: 422px;
+    }
+    /* form releted style end */
+    /* footer start*/
+    footer {
+        margin-top: 24px;
+    }
 
+    .hr-line {
+        width: 60%;  
+    }
+
+    .footer-dis {
+        text-align: center;
+        font-size: 14px;
+        padding: 0px 20px;
+    }
+    /* footer end*/
 }

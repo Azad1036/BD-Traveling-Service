@@ -5,7 +5,7 @@
     font-family: 'Mulish', sans-serif;
 }
 
-body {
+.header-section, .main-section {
     width: 85%;
     margin: 0px auto;
 }
@@ -279,3 +279,49 @@ hr {
     width: 100%;
     margin-top: 16px;
 }
+/* form releted end */
+/* footer releted style */
+footer {
+  margin-top: 100px;
+  background: rgba(19, 19, 24, 0.05);
+  height: 500px;
+  
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0px 15px 0px;
+}
+.footer-section img {
+    width: 35px;
+    height: 40px;
+}
+
+.footer-dis {
+    text-align: center;
+    color: #5A5A5D;
+}
+
+.hr-line {
+    background: rgba(19, 19, 24, 0.10);
+    width: 80%;
+    margin: 30px 120px;
+}
+
+.footer-icon {
+    font-size: 30px;
+    text-align: center; 
+}
+
+div>i  {
+    margin-right: 20px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 50px;
+    color: #131318;
+}
+/* footer releted end */
