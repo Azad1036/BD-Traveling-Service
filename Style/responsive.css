@@ -53,6 +53,7 @@
         width: 80%;
     }
     /* banner releted responsive end */
+    /* our facility releted style start */
     .facility-maintitle {
         font-size: 24px;
         font-weight: 800;
@@ -72,6 +73,7 @@
         grid-row: 20px;
         margin: 20px 0px;
     }
+    /* our facility releted style end */
     
     /* tour releted responsive start */
     .tour-container {
