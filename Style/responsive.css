@@ -53,6 +53,26 @@
         width: 80%;
     }
     /* banner releted responsive end */
+    .facility-maintitle {
+        font-size: 24px;
+        font-weight: 800;
+        margin-top: 24px;
+    }
+    
+    .facility-dis {
+        text-align: center;
+        margin: 0;
+    }
+    
+    .Service-facility-container {
+        display: block;
+    }
+
+    .facility-section {
+        grid-row: 20px;
+        margin: 20px 0px;
+    }
+    
     /* tour releted responsive start */
     .tour-container {
         flex-direction: column;

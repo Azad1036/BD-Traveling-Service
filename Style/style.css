@@ -5,7 +5,8 @@
     font-family: 'Mulish', sans-serif;
 }
 
-.header-section, .main-section {
+.header-section,
+.main-section {
     width: 85%;
     margin: 0px auto;
 }
@@ -23,7 +24,6 @@
 
 .primary-text-1 {
     color: rgba(19, 19, 24, 0.70);
-    ;
     padding: 24px 0;
     text-align: left;
 }
@@ -205,6 +205,70 @@
 }
 
 /* Our service country releted end */
+/* our facility releted style */
+.facility-maintitle {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.facility-dis {
+    text-align: center;
+    margin: 0px 300px 0px 300px;
+}
+
+.Service-facility-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+}
+
+.facility-section {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.grid-1 {
+    grid-column: 1/span 3;
+}
+
+.grid-2 {
+    grid-column: 4/span 3;
+}
+
+.grid-3 {
+    grid-column: 2/span 4;
+
+}
+
+.facility-section p {
+    color: #5A5A5D;
+    padding: 16px 55px 32px 32px;
+}
+
+.facility-section h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 32px 0px 0px 32px;   
+}
+
+.facility-section img {
+    padding: 32px 0px 0px 32px;
+
+}
+
+
+
+
+
+
+
+
+
 /* Place section star */
 .primary-text-3>li {
     font-weight: 700;
@@ -238,24 +302,26 @@
     margin-top: 100px;
     gap: 20px;
 }
+
 .form-section {
     border: 2px solid red;
     border-radius: 16px;
     padding: 40px;
 }
+
 .form-section h3 {
     font-size: 24px;
     font-weight: 800;
-   color: #131318;
+    color: #131318;
 }
 
 .form-title {
-        color: #5A5A5D;
-        font-size: 16px;
-        font-weight: 400;
-        padding: 16px 0px 24px 0px;
-    }
-       
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 0px 24px 0px;
+}
+
 hr {
     background: rgba(19, 19, 24, 0.10);
     margin-bottom: 24px;
@@ -275,17 +341,19 @@ hr {
     border: 0;
     margin-top: 16px;
 }
+
 .btn-style {
     width: 100%;
     margin-top: 16px;
 }
+
 /* form releted end */
 /* footer releted style */
 footer {
-  margin-top: 100px;
-  background: rgba(19, 19, 24, 0.05);
-  height: 500px;
-  
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+    height: 500px;
+
 }
 
 .footer-section {
@@ -294,6 +362,7 @@ footer {
     align-items: center;
     padding: 120px 0px 15px 0px;
 }
+
 .footer-section img {
     width: 35px;
     height: 40px;
@@ -312,10 +381,10 @@ footer {
 
 .footer-icon {
     font-size: 30px;
-    text-align: center; 
+    text-align: center;
 }
 
-div>i  {
+div>i {
     margin-right: 20px;
 }
 
@@ -324,4 +393,5 @@ div>i  {
     margin-top: 50px;
     color: #131318;
 }
+
 /* footer releted end */
