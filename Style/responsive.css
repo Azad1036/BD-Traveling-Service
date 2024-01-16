@@ -71,6 +71,42 @@
     }
     /* tour releted responsive end */
 
+    .our-service-title h3 {
+        text-align: center;
+        margin-top: 24px;
+    }
+    
+    .our-service-title p {
+        text-align: center;
+        padding: 16px 0px;
+        margin: 0px;
+    }
 
+    .our-servics-country {
+        display: block;
+        
+    }
+    .country-name {
+        left: 35%;
+        bottom: 45%;
+        color: #FFFFFF;
+        font-size: 20px;
+    }
+    /* Our service country releted end */
+    /* Place section start */
+    .primary-text-3 > li{
+        margin: 0px 10px;
+    }
+    
+    #btn {
+        margin-top: 35px;
+    }
+    
+    .image-text {
+        bottom: 40%;
+        font-size: 20px;
+        padding: 0px 60px; 
+    }
+    /* Place section end */
 
 }

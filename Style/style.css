@@ -203,4 +203,79 @@ body {
     font-size: 28px;
     font-weight: 800;
 }
+
 /* Our service country releted end */
+/* Place section star */
+.primary-text-3>li {
+    font-weight: 700;
+    color: #131318;
+    margin: 0px 15px;
+}
+
+#btn {
+    margin-top: 46px;
+}
+
+.tour-image {
+    position: relative;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 48%;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 0px 100px;
+    text-align: center;
+
+}
+
+/* form releted style */
+.from-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 20px;
+}
+.form-section {
+    border: 2px solid red;
+    border-radius: 16px;
+    padding: 40px;
+}
+.form-section h3 {
+    font-size: 24px;
+    font-weight: 800;
+   color: #131318;
+}
+
+.form-title {
+        color: #5A5A5D;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 16px 0px 24px 0px;
+    }
+       
+hr {
+    background: rgba(19, 19, 24, 0.10);
+    margin-bottom: 24px;
+}
+
+.from-image img {
+    width: 672px;
+    height: 422px;
+}
+
+.form-btn input {
+    display: block;
+    padding: 20px 16px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    border: 0;
+    margin-top: 16px;
+}
+.btn-style {
+    width: 100%;
+    margin-top: 16px;
+}
